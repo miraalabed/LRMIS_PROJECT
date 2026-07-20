@@ -146,5 +146,5 @@ LRMIS_PROJECT/
 
 ## Team
 
-- Aya Assi — 1220794
-- Mira Alabed — 1220467
+- Aya Assi 
+- Mira Alabed 
