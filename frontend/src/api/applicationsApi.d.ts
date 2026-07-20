@@ -1,0 +1,11 @@
+export function createApplication(data: Record<string, unknown>, idempotencyKey: string): Promise<Record<string, unknown>>;
+export function getApplications(params?: Record<string, unknown>): Promise<Record<string, unknown>>;
+export function getApplicationById(applicationId: string): Promise<Record<string, unknown>>;
+export function addApplicationComment(applicationId: string, data: Record<string, unknown>): Promise<Record<string, unknown>>;
+export function getApplicationTimeline(applicationId: string): Promise<Record<string, unknown>>;
+export function getApplicationCertificates(applicationId: string): Promise<Record<string, unknown>[]>;
+export function transitionApplication(applicationId: string, data: Record<string, unknown>): Promise<Record<string, unknown>>;
+export function holdApplication(applicationId: string, data: Record<string, unknown>): Promise<Record<string, unknown>>;
+export function rejectApplication(applicationId: string, data: Record<string, unknown>): Promise<Record<string, unknown>>;
+export function resumeApplication(applicationId: string, data: Record<string, unknown>): Promise<Record<string, unknown>>;
+export function issueApplicationCertificate(applicationId: string, data: Record<string, unknown>): Promise<Record<string, unknown>>;
